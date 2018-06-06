@@ -9,8 +9,7 @@ export default class App extends React.Component {
   render() {
     return (
       <Provider store={createStore(reducer)}>
-        <View >
-          <Text> Hellow there </Text>
+        <View style={{flex: 1}}>
           <Text> testing </Text>
           <AddEntry />
         </View>

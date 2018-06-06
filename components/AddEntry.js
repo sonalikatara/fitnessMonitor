@@ -104,7 +104,7 @@ class AddEntry extends Component {
     if(this.props.alreadyLogged) {
       return(
         <View style={styles.center}>
-          <Iconicons
+          <Ionicons
             name={Platform.OS === 'ios' ? 'ios-happy-outline' : 'md-happy'}
             size={100}
           />
